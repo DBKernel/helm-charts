@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  clickhouse:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: "21.1"
+    created: "2021-08-28T11:45:35.932628+08:00"
+    description: Helm Chart for deploying a ClickHouse cluster with Zookeeper.
+    digest: e297c36aa5cfb4aad26f83d69a46cbf5b4f3a7b6be0563cad30bb5a17c3f988e
+    home: https://github.com/DBKernel/helm-charts/tree/main/charts/clickhouse
+    icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
+    keywords:
+    - clickhouse
+    maintainers:
+    - email: wenshuang_lu@163.com
+      name: DBKernel
+      url: https://dbkernel.github.io/
+    name: clickhouse
+    sources:
+    - https://github.com/DBKernel/helm-charts/tree/main/charts/clickhouse
+    type: application
+    urls:
+    - https://dbkernel.github.io/helm-charts/clickhouse-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-08-28T11:45:35.931647+08:00"
