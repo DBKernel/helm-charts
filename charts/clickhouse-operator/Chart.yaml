@@ -1,0 +1,17 @@
+apiVersion: v2
+appVersion: 0.1.0
+description: clickhouse-operator Helm chart for Kubernetes
+home: https://github.com/dbkernel/helm-charts/charts
+keywords:
+  - operator
+  - clickhouse
+  - database
+maintainers:
+  - email: wenshuang_lu@163.com
+    name: dbkernel
+    url: https://dbkernel.github.io/
+name: clickhouse-operator
+sources:
+  - https://github.com/dbkernel/helm-charts/charts
+type: application
+version: 0.1.0
