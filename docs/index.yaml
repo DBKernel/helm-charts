@@ -5,13 +5,13 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-04-23T18:53:03.686587+08:00"
+    created: "2021-07-14T16:06:29.786384+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
       version: 1.x.x
     description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
-    digest: 2c842319c988954107eddd852ebfecd2a791e1e3873ff737f59ef1531f91b79b
+    digest: e3f7da3b6c2efcec450e2d5d6f1463f2cc7b22aa5462f68a71131817251f2f75
     home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -32,6 +32,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-postgresql
     - https://www.postgresql.org/
     urls:
-    - https://drdstech.github.io/postgresql-ha/postgresql-ha-6.9.1.tgz
+    - https://dbkernel.github.io/helm-charts/postgresql-ha-6.9.1.tgz
     version: 6.9.1
-generated: "2021-04-23T18:53:03.682307+08:00"
+generated: "2021-07-14T16:06:29.778152+08:00"
