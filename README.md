@@ -4,7 +4,9 @@
 
 # 1. 如何构建helm repo？
 
->**前提：** 已开启github pages，且选定路径为`/docs`。
+>**前提：**
+>1. 已开启github pages，且选定路径为`/docs`。
+>2. `docs`目录下创建`index.html`文件，内容可参考本项目下的`docs/index.html`。
 
 ## 1.1. 方法一：脚本自动构建
 
@@ -26,7 +28,12 @@ mv postgresql-ha-x.x.x.tgz to ./docs
 ```bash
 helm repo index --url https://dbkernel.github.io/helm-charts/ ./docs
 ```
-4. 将`/docs`推送到 github。
+4. 拷贝`operator-install`文件到`./docs`目录，便于通过wget下载：
+```bash
+cp charts/clickhouse-operator-install.yaml ./docs
+```
+5. 将`/docs`推送到 github。
+
 
 # 2. 如何安装到Kubernetes
 
@@ -47,7 +54,7 @@ helm repo add dbkernel https://dbkernel.github.io/helm-charts/
 helm repo update
 helm install ck-operator-release dbkernel/clickhouse-operator
 
-wget https://github.com/DBKernel/helm-charts/blob/main/charts/clickhouse-operator-install.yaml
+wget https://dbkernel.github.io/helm-charts/clickhouse-operator-install.yaml
 kubectl apply -f clickhouse-operator-install.yaml
 ```
 
