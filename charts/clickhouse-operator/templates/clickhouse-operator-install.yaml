@@ -1485,7 +1485,7 @@ subjects:
 # Possible Template Parameters:
 #
 # kube-system
-# dbkernel/clickhouse-operator:0.1.0
+# dbkernel/clickhouse-operator:0.14.0
 # etc-clickhouse-operator-files
 #
 apiVersion: v1
@@ -1623,7 +1623,7 @@ data:
 # Possible Template Parameters:
 #
 # kube-system
-# dbkernel/clickhouse-operator:0.1.0
+# dbkernel/clickhouse-operator:0.14.0
 # etc-clickhouse-operator-confd-files
 #
 apiVersion: v1
@@ -1638,7 +1638,7 @@ data:
 # Possible Template Parameters:
 #
 # kube-system
-# dbkernel/clickhouse-operator:0.1.0
+# dbkernel/clickhouse-operator:0.14.0
 # etc-clickhouse-operator-configd-files
 #
 apiVersion: v1
@@ -1694,7 +1694,7 @@ data:
 # Possible Template Parameters:
 #
 # kube-system
-# dbkernel/clickhouse-operator:0.1.0
+# dbkernel/clickhouse-operator:0.14.0
 # etc-clickhouse-operator-templatesd-files
 #
 apiVersion: v1
@@ -1793,7 +1793,7 @@ data:
 # Possible Template Parameters:
 #
 # kube-system
-# dbkernel/clickhouse-operator:0.1.0
+# dbkernel/clickhouse-operator:0.14.0
 # etc-clickhouse-operator-usersd-files
 #
 apiVersion: v1

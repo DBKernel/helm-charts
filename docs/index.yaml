@@ -3,9 +3,9 @@ entries:
   clickhouse-cluster:
   - apiVersion: v2
     appVersion: "21.1"
-    created: "2021-07-15T23:08:20.628243+08:00"
+    created: "2021-07-17T18:08:34.378712+08:00"
     description: Helm Chart for deploying a sharded and replicated ClickHouse cluster
-    digest: 829e8a482307c7389e8f2d7e5e2045a8b8009e34b656f1ff3fd1437360d69aee
+    digest: 50b7021ee3af1379e3435d2cffe3e1b7d72390e5f0c4f8a9f9765b6be69b633a
     home: https://github.com/dbkernel/helm-charts
     icon: https://clickhouse.yandex/images/logo.png
     keywords:
@@ -19,14 +19,14 @@ entries:
     - https://github.com/dbkernel/helm-charts
     type: application
     urls:
-    - https://dbkernel.github.io/helm-charts/clickhouse-cluster-0.1.0.tgz
-    version: 0.1.0
+    - https://dbkernel.github.io/helm-charts/clickhouse-cluster-0.14.0.tgz
+    version: 0.14.0
   clickhouse-operator:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2021-07-15T23:08:20.628867+08:00"
+    appVersion: 0.14.0
+    created: "2021-07-17T18:08:34.382442+08:00"
     description: clickhouse-operator Helm chart for Kubernetes
-    digest: 015059b317868c963b9fb7b24e67efc85ebf2875394584bb6b4eb5ad5d68e09d
+    digest: 6df5e8a8972023991df56848c8963ee81bf48dfbc40e0892d3bfb0203967451c
     home: https://github.com/dbkernel/helm-charts/charts
     keywords:
     - operator
@@ -41,14 +41,14 @@ entries:
     - https://github.com/dbkernel/helm-charts/charts
     type: application
     urls:
-    - https://dbkernel.github.io/helm-charts/clickhouse-operator-0.1.0.tgz
-    version: 0.1.0
+    - https://dbkernel.github.io/helm-charts/clickhouse-operator-0.14.0.tgz
+    version: 0.14.0
   postgresql-ha:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-07-15T23:08:20.633225+08:00"
+    created: "2021-07-17T18:08:34.388755+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -77,4 +77,4 @@ entries:
     urls:
     - https://dbkernel.github.io/helm-charts/postgresql-ha-6.9.1.tgz
     version: 6.9.1
-generated: "2021-07-15T23:08:20.627387+08:00"
+generated: "2021-07-17T18:08:34.377414+08:00"
