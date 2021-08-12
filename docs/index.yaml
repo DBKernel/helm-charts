@@ -3,9 +3,9 @@ entries:
   clickhouse-cluster:
   - apiVersion: v2
     appVersion: "21.1"
-    created: "2021-07-17T18:08:34.378712+08:00"
+    created: "2021-08-12T10:55:16.737258+08:00"
     description: Helm Chart for deploying a sharded and replicated ClickHouse cluster
-    digest: 50b7021ee3af1379e3435d2cffe3e1b7d72390e5f0c4f8a9f9765b6be69b633a
+    digest: f53b8392d5059f8c986d89c61ea226bd784ce0de0c0d51db1e76040b1b23ba88
     home: https://github.com/dbkernel/helm-charts
     icon: https://clickhouse.yandex/images/logo.png
     keywords:
@@ -24,9 +24,9 @@ entries:
   clickhouse-operator:
   - apiVersion: v2
     appVersion: 0.14.0
-    created: "2021-07-17T18:08:34.382442+08:00"
+    created: "2021-08-12T10:55:16.738579+08:00"
     description: clickhouse-operator Helm chart for Kubernetes
-    digest: 6df5e8a8972023991df56848c8963ee81bf48dfbc40e0892d3bfb0203967451c
+    digest: d52389db45acc6e695152464cf625a5cc74d7281829dd04ec14b8366c8372dc0
     home: https://github.com/dbkernel/helm-charts/charts
     keywords:
     - operator
@@ -48,7 +48,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-07-17T18:08:34.388755+08:00"
+    created: "2021-08-12T10:55:16.745363+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -77,4 +77,4 @@ entries:
     urls:
     - https://dbkernel.github.io/helm-charts/postgresql-ha-6.9.1.tgz
     version: 6.9.1
-generated: "2021-07-17T18:08:34.377414+08:00"
+generated: "2021-08-12T10:55:16.733076+08:00"
