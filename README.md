@@ -1,3 +1,5 @@
+![](https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg)
+
 
 [![License](https://img.shields.io/badge/license-Apache-green.svg)](./LICENSE)
 [![](https://github.com/dbkernel/helm-charts/workflows/helm-charts%2Frelease/badge.svg?branch=master)](https://github.com/dbkernel/helm-charts/actions)

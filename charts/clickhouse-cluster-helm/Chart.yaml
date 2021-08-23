@@ -1,7 +1,7 @@
 # This file is part of the ClickHouse Helm Chart
-#    https://gitlab.com/MatthiasLohr/clickhouse-helm-chart
+#    https://github.com/dbkernel/helm-charts/charts/clickhouse-cluster-helm
 #
-# Copyright 2020 DBKernel <wenshuang_lu@163.com>
+# Copyright 2021 DBKernel <wenshuang_lu@163.com>
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,12 +16,14 @@
 # limitations under the License.
 
 apiVersion: v2
+annotations:
+  category: Database
+name: clickhouse
+version: 0.1.0
 appVersion: "21.1"
-name: clickhouse-cluster
-Version: 0.14.0
-description: Helm Chart for deploying a sharded and replicated ClickHouse cluster
+description: Helm Chart for deploying a ClickHouse cluster with Zookeeper.
 home: https://github.com/dbkernel/helm-charts/charts/clickhouse-cluster-helm
-icon: https://clickhouse.yandex/images/logo.png
+icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
 type: application
 kubeVersion:
 keywords:
@@ -32,7 +34,7 @@ sources:
 
 maintainers:
   - email: wenshuang_lu@163.com
-    name: dbkernel
+    name: DBKernel
     url: https://dbkernel.github.io/
 # Chart.yaml reference:
 # https://helm.sh/docs/topics/charts/#the-chart-yaml-file

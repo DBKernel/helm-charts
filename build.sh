@@ -1,23 +1,31 @@
 #!/bin/bash
-#db_name=postgresql-ha
-#db_version=6.9.1
 
-#db_name=clickhouse-cluster
-#db_version=0.14.0
+if [ ! -d ./docs ]; then
+    mkdir ./docs
+fi
 
-db_name=clickhouse-operator
-db_version=0.14.0
+dbs=(
+    "postgresql-ha=6.9.1"
+    "clickhouse-cluster-helm=v21.1.3.32-stable"
+    "clickhouse-operator=0.14.0"
+    "clickhouse-cluster=0.14.0"
+)
 
 repo=https://dbkernel.github.io/helm-charts/
 
 set -x
 
-rm -f ./docs/$db_name*
-helm package charts/${db_name}
-mv ${db_name}-${db_version}.tgz ./docs
-if [ "${db_name}" == "clickhouse-operator" ]; then
-    cp charts/clickhouse-operator-install.yaml docs
-fi
-helm repo index --url $repo ./docs
+for db in ${dbs[@]}; do
+    db_name=$(echo ${db} | cut -d = -f 1)
+    db_version=$(echo ${db} | cut -d = -f 2)
+
+    rm -f ./docs/$db_name*
+    helm package charts/${db_name}
+    mv ${db_name}-${db_version}.tgz ./docs
+    if [ "${db_name}" == "clickhouse-operator" ]; then
+        cp charts/clickhouse-operator-install.yaml docs
+    fi
+    helm repo index --url $repo ./docs
+done
 
 set +x

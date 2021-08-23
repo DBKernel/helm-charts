@@ -3,10 +3,10 @@ entries:
   clickhouse-cluster:
   - apiVersion: v2
     appVersion: "21.1"
-    created: "2021-08-12T10:55:16.737258+08:00"
+    created: "2021-08-23T15:19:59.368238+08:00"
     description: Helm Chart for deploying a sharded and replicated ClickHouse cluster
-    digest: f53b8392d5059f8c986d89c61ea226bd784ce0de0c0d51db1e76040b1b23ba88
-    home: https://github.com/dbkernel/helm-charts
+    digest: 24507d085895fcd93765b671ab1676b9b229ef8ad5bd4e3272d53e4451cb129f
+    home: https://github.com/dbkernel/helm-charts/charts/clickhouse-cluster-helm
     icon: https://clickhouse.yandex/images/logo.png
     keywords:
     - clickhouse
@@ -16,7 +16,7 @@ entries:
       url: https://dbkernel.github.io/
     name: clickhouse-cluster
     sources:
-    - https://github.com/dbkernel/helm-charts
+    - https://github.com/dbkernel/helm-charts/charts/clickhouse-cluster-helm
     type: application
     urls:
     - https://dbkernel.github.io/helm-charts/clickhouse-cluster-0.14.0.tgz
@@ -24,9 +24,9 @@ entries:
   clickhouse-operator:
   - apiVersion: v2
     appVersion: 0.14.0
-    created: "2021-08-12T10:55:16.738579+08:00"
+    created: "2021-08-23T15:19:59.368885+08:00"
     description: clickhouse-operator Helm chart for Kubernetes
-    digest: d52389db45acc6e695152464cf625a5cc74d7281829dd04ec14b8366c8372dc0
+    digest: 5554d6af2eff017454aaf82353883134e4cc100d23f605fdaaac9b9e836527b8
     home: https://github.com/dbkernel/helm-charts/charts
     keywords:
     - operator
@@ -48,13 +48,13 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-08-12T10:55:16.745363+08:00"
+    created: "2021-08-23T15:19:59.372814+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
       version: 1.x.x
     description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
-    digest: 8b6cda3674c5e4e01260f4ee50dff6f3202b74eeb5ca0d873fea36b633b97f99
+    digest: 6433449c9db6dc9da69f0636c819dc3dce0f0d9251aa79f227729772ca9f5ca0
     home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -77,4 +77,4 @@ entries:
     urls:
     - https://dbkernel.github.io/helm-charts/postgresql-ha-6.9.1.tgz
     version: 6.9.1
-generated: "2021-08-12T10:55:16.733076+08:00"
+generated: "2021-08-23T15:19:59.366982+08:00"
