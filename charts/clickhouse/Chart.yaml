@@ -1,5 +1,5 @@
 # This file is part of the ClickHouse Helm Chart
-#    https://github.com/DBKernel/helm-charts/tree/main/charts/clickhouse
+#    https://github.com/dbkernel/helm-charts/tree/main/charts/clickhouse
 #
 # Copyright 2021 DBKernel <wenshuang_lu@163.com>
 #
@@ -22,7 +22,7 @@ name: clickhouse
 version: 0.1.0
 appVersion: "21.1"
 description: Helm Chart for deploying a ClickHouse cluster with Zookeeper.
-home: https://github.com/DBKernel/helm-charts/tree/main/charts/clickhouse
+home: https://github.com/dbkernel/helm-charts/tree/main/charts/clickhouse
 icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
 type: application
 kubeVersion:
@@ -30,7 +30,7 @@ keywords:
   - clickhouse
 
 sources:
-  - https://github.com/DBKernel/helm-charts/tree/main/charts/clickhouse
+  - https://github.com/dbkernel/helm-charts/tree/main/charts/clickhouse
 
 maintainers:
   - email: wenshuang_lu@163.com

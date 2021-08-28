@@ -113,6 +113,19 @@ helm install clickhouse-cluster dbkernel/clickhouse-cluster -n kube-system
 
 # License
 
-This helm chart is published under the Apache License, Version 2.0. See LICENSE.md for more information.
+This helm chart is published under the Apache License, Version 2.0. See [LICENSE](LICENSE) for more information.
 
 Copyright (c) by [DBKernel](https://dbkernel.github.io/).
+
+## Attributions
+
+* **ClickHouse**
+    * Project URL: https://clickhouse.tech/
+    * License: Apache License, Version 2.0
+
+<p align="center">
+<br/><br/>
+Please submit any DBKernel bugs, issues, and feature requests to GitHub Issue.
+<br/>
+</a>
+</p>
