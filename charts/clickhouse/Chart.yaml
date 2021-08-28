@@ -19,7 +19,7 @@ apiVersion: v2
 annotations:
   category: Database
 name: clickhouse
-version: 0.1.0
+version: 1.0.0
 appVersion: "21.1"
 description: Helm Chart for deploying a ClickHouse cluster with Zookeeper.
 home: https://github.com/dbkernel/helm-charts/tree/main/charts/clickhouse

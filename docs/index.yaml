@@ -5,9 +5,9 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: "21.1"
-    created: "2021-08-28T11:45:35.932628+08:00"
+    created: "2021-08-29T00:27:32.99656+08:00"
     description: Helm Chart for deploying a ClickHouse cluster with Zookeeper.
-    digest: e297c36aa5cfb4aad26f83d69a46cbf5b4f3a7b6be0563cad30bb5a17c3f988e
+    digest: 480c3bbb4e7b1f258d69e665de421846e53c98be09579ad1d71aefeb2414b157
     home: https://github.com/dbkernel/helm-charts/tree/main/charts/clickhouse
     icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
     keywords:
@@ -21,6 +21,33 @@ entries:
     - https://github.com/dbkernel/helm-charts/tree/main/charts/clickhouse
     type: application
     urls:
-    - https://dbkernel.github.io/helm-charts/clickhouse-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-08-28T11:45:35.931647+08:00"
+    - https://dbkernel.github.io/helm-charts/clickhouse-1.0.0.tgz
+    version: 1.0.0
+  mysql-ha:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 5.7.34
+    created: "2021-08-29T00:27:32.997666+08:00"
+    description: High Availability MySQL Cluster, Open Source.
+    digest: 0c880a8ac69144782fb8d8a99b1080ec07680fc3fabca498aa5587f4317831cf
+    home: https://github.com/dbkernel/helm-charts/charts/mysql-ha
+    icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
+    keywords:
+    - DBKernel
+    - MySQL HA
+    - database
+    - kubernetes
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: wenshuang_lu@163.com
+      name: DBKernel
+      url: https://dbkernel.github.io/
+    name: mysql-ha
+    sources:
+    - https://github.com/dbkernel/helm-charts/charts/mysql-ha
+    type: application
+    urls:
+    - https://dbkernel.github.io/helm-charts/mysql-ha-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-08-29T00:27:32.995628+08:00"
