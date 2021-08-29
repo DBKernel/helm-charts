@@ -5,10 +5,11 @@ if [ ! -d ./docs ]; then
 fi
 
 dbs=(
-    "postgresql-ha=6.9.1"
-    "clickhouse=0.1.0" # helm
-    "clickhouse-operator=0.14.0"
-    "clickhouse-cluster=0.14.0" # for operator
+    "mysql-ha=1.0.0"
+    "postgresql-ha=7.9.2" # from bitnami/charts/bitnami/postgresql-ha
+    "clickhouse=1.0.0" # helm
+    #"clickhouse-operator=0.14.0"
+    #"clickhouse-cluster=0.14.0" # for operator
 )
 
 repo=https://dbkernel.github.io/helm-charts/

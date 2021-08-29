@@ -1,0 +1,22 @@
+annotations:
+  category: Infrastructure
+apiVersion: v2
+# Please make sure that version and appVersion are always the same.
+appVersion: 1.8.0
+description: A Library Helm Chart for grouping common logic between dbkernel charts. This chart is not deployable by itself.
+home: https://github.com/dbkernel/helm-charts/tree/main/charts/postgresql-ha/charts/common
+icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.png
+keywords:
+  - common
+  - helper
+  - template
+  - function
+  - dbkernel
+maintainers:
+  - email: wenshuang_lu@163.com
+    name: DBKernel
+name: common
+sources:
+  - https://github.com/dbkernel/helm-charts/tree/main/charts/postgresql-ha
+type: library
+version: 1.8.0

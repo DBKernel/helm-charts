@@ -123,6 +123,13 @@ Copyright (c) by [DBKernel](https://dbkernel.github.io/).
     * Project URL: https://clickhouse.tech/
     * License: Apache License, Version 2.0
 
+* **bitnami**
+    * Project URL:
+      * https://docs.bitnami.com
+      * https://github.com/bitnami/bitnami-docker-postgresql-repmgr
+      * https://github.com/bitnami/charts/postgresql-ha
+    * License: Apache License, Version 2.0
+
 <p align="center">
 <br/><br/>
 Please submit any DBKernel bugs, issues, and feature requests to GitHub Issue.

@@ -5,9 +5,9 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: "21.1"
-    created: "2021-08-29T00:27:32.99656+08:00"
+    created: "2021-08-30T10:22:44.619981+08:00"
     description: Helm Chart for deploying a ClickHouse cluster with Zookeeper.
-    digest: 480c3bbb4e7b1f258d69e665de421846e53c98be09579ad1d71aefeb2414b157
+    digest: bfbcafa6d5557f89f2d4ff3d2ad03ef585054ccb5eaf2fa24eab7dd5c02a5e85
     home: https://github.com/dbkernel/helm-charts/tree/main/charts/clickhouse
     icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
     keywords:
@@ -28,9 +28,9 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 5.7.34
-    created: "2021-08-29T00:27:32.997666+08:00"
+    created: "2021-08-30T10:22:44.621085+08:00"
     description: High Availability MySQL Cluster, Open Source.
-    digest: 0c880a8ac69144782fb8d8a99b1080ec07680fc3fabca498aa5587f4317831cf
+    digest: c9d1cd71c0071e0f9468b5194995fa13ed56d0467a381a357c643b01cbc838ba
     home: https://github.com/dbkernel/helm-charts/charts/mysql-ha
     icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
     keywords:
@@ -50,4 +50,34 @@ entries:
     urls:
     - https://dbkernel.github.io/helm-charts/mysql-ha-1.0.0.tgz
     version: 1.0.0
-generated: "2021-08-29T00:27:32.995628+08:00"
+  postgresql-ha:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 11.13.0
+    created: "2021-08-30T10:22:44.626099+08:00"
+    description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
+    digest: caed995d03e2b1b55e51715869a67d7368ed257dc367345e891d437dd33f534a
+    home: https://github.com/dbkernel/helm-charts/tree/main/charts/postgresql-ha
+    icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
+    keywords:
+    - postgresql
+    - repmgr
+    - pgpool
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    - high availability
+    maintainers:
+    - email: wenshuang_lu@163.com
+      name: DBKernel
+    name: postgresql-ha
+    sources:
+    - https://github.com/dbkernel/helm-charts/tree/main/charts/postgresql-ha
+    - https://www.postgresql.org/
+    urls:
+    - https://dbkernel.github.io/helm-charts/postgresql-ha-7.9.2.tgz
+    version: 7.9.2
+generated: "2021-08-30T10:22:44.619087+08:00"

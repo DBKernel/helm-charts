@@ -1,0 +1,30 @@
+{
+    "gosu": {
+        "arch": "amd64",
+        "digest": "3e6fc37ca073b10a73a804d39c2f0c028947a1a596382a4f8ebe43dfbaa3a25e",
+        "distro": "debian-10",
+        "type": "NAMI",
+        "version": "1.14.0-0"
+    },
+    "pgpool": {
+        "arch": "amd64",
+        "digest": "7e74b2e1bcc38f5f3154f460ea27b7ebb42ec2049533111842a6238dc01224a8",
+        "distro": "debian-10",
+        "type": "NAMI",
+        "version": "4.2.4-1"
+    },
+    "postgresql-client": {
+        "arch": "amd64",
+        "digest": "bc507be929b72ee456f46c031a5c2ab4b6433175d2bbb6fc6a74da565ab3cb08",
+        "distro": "debian-10",
+        "type": "NAMI",
+        "version": "10.18.0-0"
+    },
+    "wait-for-port": {
+        "arch": "amd64",
+        "digest": "7521d9a4f9e4e182bf32977e234026caa7b03759799868335bccb1edd8f8fd12",
+        "distro": "debian-10",
+        "type": "NAMI",
+        "version": "1.0.0-3"
+    }
+}

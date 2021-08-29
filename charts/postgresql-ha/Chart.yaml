@@ -1,0 +1,27 @@
+annotations:
+  category: Database
+apiVersion: v2
+appVersion: 11.13.0
+dependencies:
+description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
+engine: gotpl
+home: https://github.com/dbkernel/helm-charts/tree/main/charts/postgresql-ha
+icon: https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/logos/logo-dbkernel-green.svg
+keywords:
+  - postgresql
+  - repmgr
+  - pgpool
+  - postgres
+  - database
+  - sql
+  - replication
+  - cluster
+  - high availability
+maintainers:
+  - email: wenshuang_lu@163.com
+    name: DBKernel
+name: postgresql-ha
+sources:
+  - https://github.com/dbkernel/helm-charts/tree/main/charts/postgresql-ha
+  - https://www.postgresql.org/
+version: 7.9.2
